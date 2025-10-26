@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-const PORT = 3000;
+const PORT = 8000;
 
 app.get("/api/get", (req,res) => {
     res.send({message:"hello back to nodejs"})
